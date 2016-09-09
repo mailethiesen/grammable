@@ -7,6 +7,7 @@ gem 'rack'
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets'
 gem 'sass-rails'
+gem 'simple_form'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.18'
 # Use Puma as the app server
