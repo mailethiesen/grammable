@@ -12,13 +12,19 @@
     <%= csrf_meta_tags %>
   </head>
 
-    <body>
+  <body>
+    
 
-    </body>
-
-
+  <% if notice.present? %>
+    <p class="alert alert-info"><%= notice %></p>
+  <% end %>
+  <% if alert.present? %>
+    <p class="alert alert-danger"><%= alert %></p>
+  <% end %>
 
     <%= yield %>
 
+
+    <script src="app/assets/javascripts/tota11y.min.js"></script>
   </body>
 </html>
